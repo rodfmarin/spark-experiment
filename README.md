@@ -38,3 +38,4 @@ docker tag mjhea0/spark-hadoop:2.2.1 spark-hadoop:2.2.1
 ```
 Otherwise the Kubernetes won't be able to locate the right image on the system.
 
+When you start the spark application, you have to add an entry to the HOSTS file on the system that maps the application's IP to a hostname `apache-spark`  This is covered in the guide, but is important to load the controller's web interface
